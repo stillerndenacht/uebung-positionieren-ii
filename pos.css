@@ -34,6 +34,8 @@ section{
 .row{
 	width: 100%;
 	height: 600px;
+	position: relative;
+	
 
 
 }
@@ -45,19 +47,34 @@ section{
 
 .electric-purple{
 	background: #C200FB;
+	position: absolute;
+	right: 100px;
+	top: 100px;
+	z-index: 1;
 
 }
 
 .raspberry{
 	background: #EC0868;
+	position: absolute;
+	right: 0;
+	top: 0;
 	}
 
 .ferrari-red{
 	background: #FC2F00;
+	position: absolute;
+	right: 200px;
+	top: 200px;
+	z-index: 2;
 }
 
 .black{
 	background: #000;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index: 3;
 }
 
 .blabla{
